@@ -1,0 +1,35 @@
+*root{
+    
+    --blue:#191645;//dominant color,text color
+    --skyblue: #3498db;//optional
+    --cream: #FEFFEC;//background color
+    --green:#43C6AC;//hover color
+    --light-color:#666;//optional
+    --light-bg:#eee;//optional
+ }
+ 
+ 
+ 
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #666;
+        }
+        header {
+            background-color: #666;
+            color: var(--cream) ;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        section {
+            max-width: 1080px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
